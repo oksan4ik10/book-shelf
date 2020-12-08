@@ -1,0 +1,31 @@
+.editor{
+  
+    width: 70%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 10px;
+
+}
+
+.editor button{
+    width: 20%;
+}
+.editor input{
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 70%;
+    
+}
+.editor span{
+    align-self: flex-start;
+}
+input.year{
+    width: 15%;
+}
+.buttons-editor{
+    display: flex;
+}
+.buttons-editor button{
+    margin-right: 10px;
+}
