@@ -1,5 +1,4 @@
-  
-'use strict';
+"use strict";
 
 const btnAdd = document.getElementById("add"),
         main = document.querySelector("main"),
