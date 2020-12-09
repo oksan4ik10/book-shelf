@@ -1,2 +1,54 @@
-body
-    background-color: white
+$size: 10px
+=outline
+    outline: none !important
+    border: none
+=header-main
+    width: 70%
+    margin: 0px auto
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+*
+    font-family: 'Montserrat','sans-serif'
+
+button
+    padding: $size
+    background-color: lightgrey
+    border-radius: $size
+    +outline
+    &:active
+        +outline
+        background-color: red
+    &:hover
+        background-color: rgba(232,95,76,0.5)
+    &:focus
+        +outline
+header
+    +header-main
+main
+    +header-main
+
+#add
+   width: 200px
+
+img
+    object-fit: cover
+    width: $size*10
+ul
+    padding: 0px
+
+li
+    list-style-type: none
+    display: flex
+    margin-bottom: $size
+    flex-wrap: wrap
+    justify-content: space-between
+    flex-grow: 1
+
+
+.about-book
+    width: 50%
+
+.none
+    display: none
