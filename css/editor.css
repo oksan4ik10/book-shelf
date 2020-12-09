@@ -1,31 +1,42 @@
-.editor{
-  
-    width: 70%;
-    margin: 0px auto;
-    display: flex;
-    flex-direction: column; 
-    margin-bottom: 10px;
-
+.editor {
+  width: 70%;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 10px;
 }
 
-.editor button{
-    width: 20%;
+.editor button {
+  width: 20%;
 }
-.editor input{
-    padding: 10px;
-    margin-bottom: 10px;
-    width: 70%;
-    
+
+.editor input {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 70%;
 }
-.editor span{
-    align-self: flex-start;
+
+.editor input.year {
+  width: 15%;
 }
-input.year{
-    width: 15%;
+
+.editor span {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
-.buttons-editor{
-    display: flex;
+
+.buttons-editor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
-.buttons-editor button{
-    margin-right: 10px;
+
+.buttons-editor button {
+  margin-right: 10px;
 }
+/*# sourceMappingURL=editor.css.map */
